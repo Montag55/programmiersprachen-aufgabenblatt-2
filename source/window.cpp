@@ -7,7 +7,7 @@
 Window::Window(std::pair<int, int> const& windowsize)
   : m_window{nullptr}
   , m_size{windowsize}
-  , m_title("Fensterchen")
+  , m_title("Geile_Kacke")
   , m_mouse_position{}
   , m_mouse_button_flags{0}
   , m_keypressed{}
@@ -41,7 +41,7 @@ Window::Window(std::pair<int, int> const& windowsize)
 
     glLineWidth(2.0f);
     glEnable(GL_LINE_SMOOTH);
-    glClearColor(1.0f,1.0f,1.0f,1.0f);
+    glClearColor(0.0f,0.0f,0.0f,0.0f);
   }
 }
 

@@ -50,7 +50,6 @@ public:
   // is closed flag set
   bool should_close() const;
 
-
   // close window
   void close();
 
